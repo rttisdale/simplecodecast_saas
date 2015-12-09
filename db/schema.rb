@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20151208220213) do
 
-  create_table "contacts", force: true do |t|
+  create_table "contacts", force: :cascade do |t|
   end
 
 end
